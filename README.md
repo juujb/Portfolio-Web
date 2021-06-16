@@ -3,4 +3,4 @@ Edito ele constantemente para deixar sempre atualizado com meus avanços
 
 ## Ambiente Virtual
 
-https://juujb.github.io/Portfolio-Web/
+https://juujb.github.io/

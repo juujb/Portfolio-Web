@@ -85,9 +85,9 @@
         }
     }
 
-    @media (max-width: 400px){
+    @media (max-width: 450px){
         #contacts {
-            display: flex;
+            display: block;
             flex-direction: column;
             padding: 15px;
             justify-content: center;

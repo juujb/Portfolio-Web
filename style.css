@@ -85,7 +85,7 @@
         }
     }
 
-    @media (max-width: 100px){
+    @media (max-width: 400px){
         #contacts {
             display: flex;
             flex-direction: column;
@@ -93,6 +93,6 @@
             justify-content: space-between;
         }
         #icons{
-            width: 100px;
+            width: 400px;
         }
     }

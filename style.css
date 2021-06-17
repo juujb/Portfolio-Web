@@ -85,12 +85,13 @@
         }
     }
 
-    @media (max-width: 200px){
-        #contacts {
-            display: block;
-            
-            padding: 15px;
-            justify-content: center;
+    @media screen and
+        (min-width: 200px) and
+        (max-width: 640px){
+            #contacts {
+              display: block;
+              padding: 15px;
+              justify-content: center;
         }
         #icons{
             width: 100%;

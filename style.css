@@ -85,7 +85,7 @@
         }
     }
 
-    @media (max-width: 250px){
+    @media (min-width: 500px){
         #contacts {
             display: flex;
             flex-direction: column;

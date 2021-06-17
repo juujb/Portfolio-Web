@@ -78,7 +78,7 @@
         (min-width: 480px) and
         (max-width: 720px){
             #contacts {
-              display: block;
+              display: flex;
               padding: 15px;
               justify-content: space-between;
               flex-direction: column;

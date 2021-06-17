@@ -73,3 +73,9 @@
         font-weight: bold;
     }
     
+    @media screen and
+    (min-width: 480px) and
+    (max-width: 780px){
+       flex-wrap: wrap;
+       justify-content: space-between;
+}

@@ -89,7 +89,7 @@
         (min-width: 480px) and
         (max-width: 720px){
             #contacts {
-              display: block;
+              display: flex;
               padding: 15px;
               justify-content: center;
         }

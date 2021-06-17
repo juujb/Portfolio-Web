@@ -88,7 +88,7 @@
     @media (max-width: 200px){
         #contacts {
             display: block;
-            flex-direction: column;
+            
             padding: 15px;
             justify-content: center;
         }

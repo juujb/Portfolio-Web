@@ -78,4 +78,7 @@ body {
         display: flex;
         flex-direction: column;
     }
+    #icons{
+        width: 500px;
+    }
 }

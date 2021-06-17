@@ -91,7 +91,8 @@
             #contacts {
               display: flex;
               padding: 15px;
-              justify-content: center;
+              justify-content: space-between;
+              flex-direction: column;
         }
         #icons{
             width: 100%;

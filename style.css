@@ -1,72 +1,81 @@
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* Código de background utilizado de terceiros; Source: https://codepen.io/P1N2O/pen/pyBNzX */
 
 * {
-    font-family: "Montserrat", sans-serif;
-    color: #f8f9fa
+  font-family: "Montserrat", sans-serif;
+  color: #f8f9fa;
 }
 #resum {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 #info {
-    font-style: oblique;
+  font-style: oblique;
 }
 
 #eu {
-    border-radius: 360px;
+  border-radius: 360px;
 }
 
 #indice {
-    padding:20px;
-    text-overflow: ellipsis;
+  padding: 20px;
+  text-overflow: ellipsis;
 }
 
 #school {
-    padding: 20px;
-    flex: content;
-    ;
+  padding: 20px;
+  flex: content;
 }
 
 #hability {
-    padding: 20px;
+  padding: 20px;
 }
 
 #projects {
-    padding: 20px;
+  padding: 20px;
 }
 
 #icons {
-
-    width: 1000px;
-    margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 #contacts {
-    padding: 30px;  
-    display: flex;
-    justify-content: space-evenly;                                                                                                                                                                                                                                                                     ;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .big {
-    font-size: large;
+  font-size: large;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 500px){
+    #contacts {
+        display: flex;
+        flex-direction: column;
+    }
 }

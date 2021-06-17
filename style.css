@@ -73,23 +73,12 @@
         font-weight: bold;
     }
     
-    @media (max-width: 500px){
-        #contacts {
-            display: flex;
-            flex-direction: column;
-            padding: 30px;
-            justify-content: space-between;
-        }
-        #icons{
-            width: 459px;
-        }
-    }
 
     @media screen and
         (min-width: 480px) and
         (max-width: 720px){
             #contacts {
-              display: flex;
+              display: block;
               padding: 15px;
               justify-content: space-between;
               flex-direction: column;

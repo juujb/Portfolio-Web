@@ -77,8 +77,10 @@ body {
     #contacts {
         display: flex;
         flex-direction: column;
+        padding: 30px;
+        justify-content: center;
     }
     #icons{
-        width: 100px;
+        width: 480px;
     }
 }

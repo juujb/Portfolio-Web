@@ -73,8 +73,7 @@
         font-weight: bold;
     }
     
-    @media screen and
-    (min-width: 480px) and
+    @media screen 
     (max-width: 780px){
        flex-direction: column;
 }

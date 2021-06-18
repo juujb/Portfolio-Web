@@ -63,6 +63,7 @@
         padding: 30px;
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     
     .big {
@@ -73,7 +74,3 @@
         font-weight: bold;
     }
     
-    @media screen 
-    (max-width: 780px){
-       flex-direction: column;
-}

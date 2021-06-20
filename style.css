@@ -26,14 +26,35 @@
         font-family: "Courier New", Courier, monospace;
         font-weight: bold;
         font-size: 15px;
+        display: inline-block;
+        margin-top: 50px;
+        width: 40%;
+        vertical-align: top;
+        overflow: hidden;
+        max-height: 100px;
     }
-    
+
+    .code {
+        font-style: oblique;
+    }
+
+    .nome {
+        margin: 50px;
+    }
+
+    .apresentation {
+        display: inline-block;
+        width: 40%;
+    }
+
     #info {
         font-style: oblique;
     }
     
     #eu {
         border-radius: 360px;
+        background-color: white;
+        border: white 3px solid;
     }
     
     #indice {
@@ -64,7 +85,6 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        padding-top: 60px;
     }
     
     .big {
